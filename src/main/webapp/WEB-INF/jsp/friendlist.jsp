@@ -161,12 +161,12 @@ onlogin="checkLoginState();">
  </ul>
  </c:if>
  
- <c:forEach items="${userFriend}" var="userFriend" varStatus="loop">
+<!-- <c:forEach items="${userFriend}" var="userFriend" varStatus="loop">
  	<form object="${userFriend}" action="@{/friendsearch}" method="get">
  		<input type="text" name="search" id="search" value="${search}"/>
         <input type="submit" value="Search"/>
  	</form>
- </c:forEach>
+ </c:forEach> -->
 
 	
 
